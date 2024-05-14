@@ -199,4 +199,4 @@
 //     console.error('Error', error)
 // })
 
-// // "EjericiosClase4-callbacks,promesas y prog async" node ejercicios.js
+// // "EjerciciosClase4-callbacks,promesas y prog async" node ejercicios.js
