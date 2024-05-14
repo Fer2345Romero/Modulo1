@@ -62,36 +62,36 @@
 //     console.log(nombreMes)
 // })
 
-//Ejercicio 7
-const readline = require('readline')
+// //Ejercicio 7
+// const readline = require('readline')
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// })
 
-rl.question("Digite la categoria del vehiculo ", (categoria)=>{
-let tipovehiculo
-    switch(categoria){
-        case 'Moto':
-            tipovehiculo = "Motocicleta";
-            break;
+// rl.question("Digite la categoria del vehiculo ", (categoria)=>{
+// let tipovehiculo
+//     switch(categoria){
+//         case 'Moto':
+//             tipovehiculo = "Motocicleta";
+//             break;
 
-            case 'Auto':
-            tipovehiculo = "Automovil";
-            break;
+//             case 'Auto':
+//             tipovehiculo = "Automovil";
+//             break;
 
-            case 'Camion':
-            tipovehiculo = "Super Camión";
-            break;
+//             case 'Camion':
+//             tipovehiculo = "Super Camión";
+//             break;
 
-            case 'Bicicleta':
-            tipovehiculo = "Super Bicicleta";
-            break;
+//             case 'Bicicleta':
+//             tipovehiculo = "Super Bicicleta";
+//             break;
             
-            default:
-                tipovehiculo="La categoria digitada no existe"
-                break;
-    }
-    console.log(tipovehiculo)
-})
+//             default:
+//                 tipovehiculo="La categoria digitada no existe"
+//                 break;
+//     }
+//     console.log(tipovehiculo)
+// })
